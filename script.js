@@ -19,9 +19,9 @@ if(user_age >= 0 && user_age <= 11){
 }
 
 //2. Запитай у користувача число від 0 до 9 і виведи йому спецсимвол, який розташований на цій клавіші (1 !, 2 @, 3 # і т. д)
-const user_number = prompt('Please, enter your number', ' ');
+const current_user_number = prompt('Please, enter your number', ' ');
 
-switch (user_number) {
+switch (current_user_number) {
         case '1':
                 alert('!');
                 break;
